@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "RNV9RP2UV3.one.adastra.NFCScanner",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}
