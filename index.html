@@ -1,1 +1,27 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Deeplinks</h1>
+
+<p>Deeplink: clubcard://registration <a href="clubcard://registration">Clubcard via custom scheme</a></p>
+<p>Deeplink: http://www.tesco.com/registration <a href="http://www.tesco.com/registration">Clubcard via http scheme</a></p>
+<p>Deeplink: https://www.tesco.com/registration <a href="https://www.tesco.com/registration">Clubcard via https scheme</a></p>
+
+<form action="https://www.google.com">
+    <input type="submit" value="Go to Google" />
+</form>
+
+<p><form action="clubcard://registration">
+    <input type="submit" value="Go to Clubcard via custom scheme" />
+</form></p>
+
+<p><form action="http://www.tesco.com/registration">
+    <input type="submit" value="Go to Clubcard via http scheme" />
+</form></p>
+
+<p><form action="https://www.tesco.com/registration">
+    <input type="submit" value="Go to Clubcard via https scheme" />
+</form></p>
+</body>
+</html>
