@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "RNV9RP2UV3.one.adastra.NFCScanner",
+        "appID": "RNV9RP2UV3.one.adastra.nfcdoor",
         "paths": [
           "*"
         ]
